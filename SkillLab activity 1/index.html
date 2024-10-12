@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights - Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sweet Delights</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="image/cake4.jpg" alt="Delicious Cakes">
+        <div class="hero-text">
+            <h1>Welcome to Sweet Delights</h1>
+            <p>Your one-stop shop for the most delicious and beautifully crafted cakes.</p>
+            <a href="#cakes" class="btn">Explore Our Cakes</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>At Sweet Delights, we believe that every celebration deserves a perfect cake. Our expert bakers craft each cake with love and the finest ingredients to ensure a delightful experience for our customers.</p>
+    </section>
+
+    <!-- Cake Categories -->
+    <section class="cake-categories" id="cakes">
+        <h2>Our Cake Categories</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="image/cake1.jpg" alt="Birthday Cakes">
+                <h3>Birthday Cakes</h3>
+                <p>Celebrate your special day with our variety of birthday cakes.</p>
+                <a href="cake-details.html" class="btn">View Cakes</a>
+            </div>
+            <div class="category-card">
+                <img src="image/cake2.jpg" alt="Wedding Cakes">
+                <h3>Wedding Cakes</h3>
+                <p>Elegant and exquisite wedding cakes tailored to your theme.</p>
+                <a href="cake-details.html" class="btn">View Cakes</a>
+            </div>
+            <div class="category-card">
+                <img src="image/cake3.jpg" alt="Custom Cakes">
+                <h3>Custom Cakes</h3>
+                <p>Create your dream cake with our custom options.</p>
+                <a href="cake-details.html" class="btn">View Cakes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="image/cake5.jpg" alt="Gallery Image 1">
+            <img src="image/cake6.jpg" alt="Gallery Image 2">
+            <img src="image/image1.jpg" alt="Gallery Image 3">
+            <img src="image/images2.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"The birthday cake was absolutely perfect! Delicious and beautifully decorated."</p>
+                <h4>- Sarah K.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Our wedding cake was a masterpiece. Thank you for making our day special."</p>
+                <h4>- Michael & Emma</h4>
+            </div>
+        </div>
+        <div class="testimonial-form">
+            <h3>Leave a Review</h3>
+            <form id="reviewForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="review" placeholder="Your Review" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Shopping Cart -->
+<section class="shopping-cart" id="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+        <!-- Cart items will be dynamically inserted here -->
+    </div>
+    <div class="cart-summary">
+        <h3>Total: <span id="totalPrice">0.00</span></h3>
+        <button class="btn" id="checkoutBtn">Checkout</button>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p> <a href =mailto:mavitha.vinay1@gmail.com >manvitha.vinay1@gmail.com</a> </p>
+                <p>Phone: 9686515869</p>
+                <p>Address: 123 Sahyadri, Adyar</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="#cakes">Cakes</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Sweet Delights. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+

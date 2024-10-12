@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights - Cake Details</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar (Same as index.html) -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sweet Delights</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cake Details Section -->
+    <section class="cake-details">
+        <div class="details-container">
+            <div class="images">
+                <img src="image/images5.jpg" alt="Chocolate Birthday Cake" class="main-image"width ="300" height ="300">
+                <div class="thumbnail-images">
+                    <img src="image/images6.jpg" alt="Chocolate Birthday Cake" width ="300" height ="300" >
+                    <img src="image/images7.jpg" alt="Chocolate Birthday Cake"width ="300" height ="300">
+                </div>
+            </div>
+            <div class="details">
+                <h2>Chocolate Delight Birthday Cake</h2>
+                <p class="price">599.00</p>
+                <p class="description">A rich and moist chocolate cake layered with creamy chocolate frosting. Perfect for any birthday celebration.</p>
+                
+                <div class="customization">
+                    <h3>Customize Your Cake</h3>
+                    <form id="customizationForm">
+                        <label for="flavor">Flavor:</label>
+                        <select id="flavor" name="flavor" required>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="redvelvet">Red Velvet</option>
+                        </select>
+
+                        <label for="size">Size:</label>
+                        <select id="size" name="size" required>
+                            <option value="6-inch">6-inch</option>
+                            <option value="8-inch">8-inch</option>
+                            <option value="10-inch">10-inch</option>
+                        </select>
+
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                        <button type="button" class="btn" id="addToCartBtn">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: manvitha.vinat1@gamil.com</p>
+                <p>Phone: 9686515869</p>
+                <p>Address: 123 sahyadri, adyar</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="#cakes">Cakes</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Sweet Delights. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
